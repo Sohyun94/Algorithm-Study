@@ -1,0 +1,147 @@
+/* 기본 설정 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 헤더 영역 설정 */
+header {
+    width: 100%;
+    position: relative;
+}
+
+/* 네비게이션 영역 설정 */
+nav{
+    display: flex;
+
+    height: 100px;
+    background-color: antiquewhite;
+    font-size: 20px;
+
+    padding-left: 30px;
+    padding-right: 10px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 로고 설정 */
+.logo{
+    font-size: 50px;
+    padding: 0px 20px;
+}
+
+/* 검색창 설정 */
+.searchTitle{
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+/* 검색 버튼 설정 */
+.searchBtn {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* 메인 영역 설정 */
+main{
+    display: flex;
+
+    padding: 15px 30px;
+
+    flex-direction: row;
+}
+
+/* 메인 내 section 영역 설정 */
+main > section{
+    width: 80%;
+
+}
+
+/* 메인 내 aside 영역 설정 */
+main > aside {
+    width: 20%;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+    position: fixed;
+    top: 100px;
+    right: 0px;
+}
+
+/* 메인-섹션 내 영화 리스트 설정 */
+main > section > ul{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style-position: inside;
+    list-style: none;
+}
+
+/* 마커가 내부에 포함되도록 설정 */
+ul {
+    list-style-position: inside;
+}
+
+/* 영화 정보 영역 설정 */
+.movieList {
+    border: 1px;
+    border-style:solid;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 10px 20px;
+}
+
+/* 마커가 생성되지 않도록 설정 */
+.movieInfo {
+    list-style: none;
+}
+
+/* 영화 정보 설정 */
+.movieInfo > li {
+    font-size: 17px;
+}
+
+/* 영화 제목 설정 */
+.movieInfo > li:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* 찜하기 버튼 위치 설정 */
+.movieInfo > li:nth-child(6) {
+    text-align: right;
+}
+
+/* 찜하기 버튼 설정 */
+.pickButton {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: pink;
+    border-radius: 5px;
+    color: red;
+}
+
+/* footer 설정 */
+footer {
+    display: flex;
+
+    height: 100px;
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+}

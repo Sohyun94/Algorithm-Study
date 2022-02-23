@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>영화 관리 메인 화면</title>
+    <!-- 사용자 정의 스타일시트(외부) -->
+    <link rel="stylesheet" href="main.css">
+    <!-- 부트스트랩 스타일시트 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <!-- 네비게이션 -->
+        <nav>
+            <!-- 로고 영역 -->
+            <div>
+                <a href="" class="logo"><i class="bi bi-film logo"></i></a>
+            </div>
+            <!-- 영화 제목 검색 영역 -->
+            <div>
+                <form action="">
+                    <input type="text" name="movieTitle" placeholder="영화 제목을 입력하세요." class="searchTitle">
+                    <button type="submit" class="searchBtn"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+            <!-- 메뉴 영역 -->
+            <div>
+                <form action="">
+                    <a href="">로그인</a>
+                    <a href="">회원가입</a>
+                    <a href="">리뷰 게시판</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- 메인 -->
+    <main>
+        <!-- 섹션 -->
+        <section>
+            <h2>영화 목록</h2>
+            <!-- 영화 리스트 영역 -->
+            <ul>
+                <li class="movieList">
+                    <ul class="movieInfo" id="eternalsInfo">
+                        <li>이터널스</li>
+                        <li><img src="./images/eternals.jpg" alt="이터널스 포스터"></li>
+                        <li>장르 : 액션</li>
+                        <li>감독 : 클로이자오</li>
+                        <li>상영 시간 : 155분</li>
+                        <li><button class="pickButton" id="eternals"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="venomInfo">
+                        <li>베놈2: 렛 데어 비 카니지</li>
+                        <li><img src="./images/venom.jpg" alt="베놈2 포스터"></li>
+                        <li>장르 : 액션</li>
+                        <li>감독 : 앤디 서키스</li>
+                        <li>상영 시간 : 97분</li>
+                        <li><button class="pickButton" id="venom"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="parasiteInfo">
+                        <li>기생충</li>
+                        <li><img src="./images/parasite.jpg" alt="기생충 포스터"></li>
+                        <li>장르 : 드라마</li>
+                        <li>감독 : 봉준호</li>
+                        <li>상영 시간 : 131분</li>
+                        <li><button class="pickButton" id="parasite"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="harrypoter_stoneInfo">
+                        <li>해리포터와 마법사의 돌</li>
+                        <li><img src="./images/harrypoter_stone.jpg" alt="해리포터와 마법사의 돌 포스터"></li>
+                        <li>장르 : 판타지</li>
+                        <li>감독 : 크리스 콜럼버스</li>
+                        <li>상영 시간 : 152분</li>
+                        <li><button class="pickButton" id="harrypoter_stone"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="harrypoter_roomInfo">
+                        <li>해리포터와 비밀의 방</li>
+                        <li><img src="./images/harrypoter_room.jpg" alt="해리포터와 비밀의 방 포스터"></li>
+                        <li>장르 : 판타지</li>
+                        <li>감독 : 크리스 콜럼버스</li>
+                        <li>상영 시간 : 152분</li>
+                        <li><button class="pickButton" id="harrypoter_room"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="load_of_ringInfo">
+                        <li>반지의 제왕: 왕의 귀환</li>
+                        <li><img src="./images/load_of_ring.jpg" alt="반지의 제왕 포스터"></li>
+                        <li>장르 : 판타지</li>
+                        <li>감독 : 피터 잭슨</li>
+                        <li>상영 시간 : 263분</li>
+                        <li><button class="pickButton" id="load_of_ring"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="duneInfo">
+                        <li>듄</li>
+                        <li><img src="./images/dune.jpg" alt="듄 포스터"></li>
+                        <li>장르 : 모험</li>
+                        <li>감독 : 드니 뷜뇌브</li>
+                        <li>상영 시간 : 155분</li>
+                        <li><button class="pickButton" id="dune"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+                <li class="movieList">
+                    <ul class="movieInfo" id="tomb_of_the_riverInfo">
+                        <li>강릉</li>
+                        <li><img src="./images/tomb_of_the_river.jpg" alt="강릉 포스터"></li>
+                        <li>장르 : 범죄</li>
+                        <li>감독 : 윤영빈</li>
+                        <li>상영 시간 : 119분</li>
+                        <li><button class="pickButton" id="tomb_of_the_river"><i class="bi bi-heart"></i></button></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </section>
+        <!-- 찜한 영화 목록 영역 -->
+        <aside id="wishList">
+            <h2>찜한 영화 목록</h2>
+
+        </aside>
+    </main>
+    <!-- footer 영역 -->
+    <footer>Copyright &copy; Soo-ho Park
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
