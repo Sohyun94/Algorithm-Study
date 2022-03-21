@@ -1,4 +1,4 @@
-package baek1402;
+package baekjoon.b1402;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -19,7 +19,7 @@ public class Main {
 
 	public static boolean invertable(int a, int b) {
 		for (int i = 1; i < b; i++) {
-			//여기 작성하는 중
+			//�뿬湲� �옉�꽦�븯�뒗 以�
 		}
 		
 		
