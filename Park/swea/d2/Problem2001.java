@@ -1,4 +1,5 @@
-```java
+package d2;
+
 import java.util.Scanner;
 
 public class Problem2001 {
@@ -67,5 +68,3 @@ public class Problem2001 {
 	}
 
 }
-```
-
