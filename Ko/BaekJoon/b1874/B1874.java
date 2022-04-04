@@ -1,4 +1,4 @@
-package baekjoon.b1874;
+package b1874;
 
 import java.io.BufferedReader;
 import java.io.IOException;

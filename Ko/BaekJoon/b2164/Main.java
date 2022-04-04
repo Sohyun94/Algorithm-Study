@@ -1,4 +1,4 @@
-package baekjoon.b2164;
+package b2164;
 
 import java.util.LinkedList;
 import java.util.Queue;

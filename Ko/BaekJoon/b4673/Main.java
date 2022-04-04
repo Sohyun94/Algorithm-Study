@@ -1,4 +1,4 @@
-package baekjoon.b4673;
+package b4673;
 
 import java.util.Arrays;
 import java.util.LinkedList;

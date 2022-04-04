@@ -1,4 +1,4 @@
-package baekjoon.b2869;
+package b2869;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

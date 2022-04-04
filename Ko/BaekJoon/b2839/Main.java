@@ -1,4 +1,4 @@
-package baekjoon.b2839;
+package b2839;
 
 import java.util.Scanner;
 

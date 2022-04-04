@@ -1,4 +1,4 @@
-package baekjoon.b13333;
+package b13333;
 
 //import java.util.ArrayList;
 //import java.util.Collections;
